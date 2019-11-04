@@ -1,0 +1,33 @@
+  
+html{
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(numero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    padding: 50px
+}
+.main
+{
+	display: flex;
+	flex-direction: column;
+	a/*lign-items: center;*/
+}
+h1{
+	align-self: center;
+	color: white;
+	background-color: transparent;
+}
+
+button{
+
+	align-self: flex-end;
+	background-color: black;
+	padding: 20px;
+	margin-top: 400px;
+	color: white;
+	border-radius: 50%;
+	font-size: 20px;
+}
